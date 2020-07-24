@@ -1,0 +1,382 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+	font-weight: normal;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#111111;
+}
+a:hover{
+	color:red;
+}
+h1{
+	font-size:20px;
+}					
+/*杩欐槸閫氶厤鏍峰紡*/
+
+
+
+body{
+	width:100%;
+	height:1900px;
+	margin:0;
+	padding:0;
+}
+/*body鏍峰紡*/
+
+/*article涓棿涓讳綋鏍峰紡*/
+article.main_article{
+	width:100%;
+	height:115rem;
+	background-color: #EEEEEE;
+}
+div#banner_pic{
+	width:100%;
+	height:22.5rem;
+	background:url(../img/lunbo1.jpg) no-repeat center center;
+}
+div#nav_introduction{
+	width:75%;
+	height:inherit;
+	margin:0 auto;
+}
+div.introduction_div{
+	width:80%;
+	height:inherit;
+	float:left;
+	background-color: #FFFFFF;
+	display: none;
+}
+ul.ul{
+	margin:0 auto;
+	display:inline-block;
+	clear:all;
+	width:10%;
+	height:1.3rem;
+	margin-left:45%;
+	margin-top:28%;
+}
+ul.ul>li{
+	width:29%;
+	height:inherit;
+	margin-right:3%;
+	background-color: orange;
+	float: left;
+}
+ul.ul>li:nth-child(1){
+	background-color: #95999C;
+}
+div.introduction_div>p{
+	display: inline-block;
+	width:5rem;
+	height:auto;
+	margin-left:5%;
+	margin-top:1rem;
+	background-color: #FFA500;
+}
+div.introduction_div dl{
+	width:90%;
+	height:3rem;
+	margin:0 auto;
+	line-height: 2.5rem;
+}
+div.introduction_div dl dt{
+	color:#228B22;
+	float:left;
+}
+div#nav_introduction dl dd{
+	width:85%;
+	height:auto;
+	float:left;
+}
+div#nav_introduction dl dd a{
+	margin-left:2%;
+	color:rgba(0,0,0,.4);
+}
+div#nav_introduction hr{
+	width:90%;
+	margin:0 auto;
+	color:rgba(0,0,0,.3);
+}
+/*杞挱鍥惧鑸爮寮�濮�*/
+nav#article_nav{
+	width:20%;
+	height:inherit;
+	float:right;
+	background: rgba(0,0,0,.7);
+}
+nav#article_nav ul{
+	width:100%;
+	height:inherit;
+}
+nav#article_nav ul li{
+	width:100%;
+	height:2.8rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+nav#article_nav ul li div{
+	width:80%;
+	height:inherit;
+	margin:0 auto;
+	text-align: right;
+}
+nav#article_nav ul li div a{
+	font-size:1.1rem;
+	color:#FFFFFF;
+}
+nav#article_nav ul li div a::after{
+	content:'<';
+	float: left;
+}
+/*aside鍖哄煙寮�濮�*/
+aside.classes{
+	width:75%;
+	height:90rem;
+	margin:0 auto;
+	
+}
+div.word{
+	width:100%;
+	height:2rem;
+	line-height: 2rem;
+}
+div.word h1{
+	width:13%;
+	height:auto;
+	float:left;
+}
+div.word a{
+	width:11%;
+	height:auto;
+	float:right;
+	color:rgba(127,255,0,.8);
+	cursor: default;
+}
+div.word a:hover{
+	color:red;
+}
+/*鏈�鏂拌绋嬫ā鍧�*/
+div.current_class{
+	clear:both;
+	width:100%;
+	height:15rem;
+}
+div.current{
+	width:23%;
+	height:12rem;
+	float:left;
+	margin-top:.6rem;
+	margin-right: 2.6%;
+}
+div.current:nth-child(4){
+	float:right;
+}
+div.current:nth-child(4){
+	margin-right: 0;
+}
+div.current img{
+	width:100%;
+	height:10rem;
+}
+div.current p{
+	text-align: center;
+	font-size: .9rem;
+}
+div.current a p:last-child{
+	color:rgba(0,0,0,.3);
+}
+
+/*鐭ヨ瘑浣撶郴妯″潡*/
+div.knowledge_sys{
+	clear:both;
+	width:100%;
+	height:20rem;
+}
+div.sys_class{
+	width:13%;
+	height:9rem;
+	float:left;
+	margin-top:.6rem;
+	margin-right: 1.5%;
+	background-color: #FFFFFF;
+}
+div.sys_class:nth-child(7n){
+	float:right;
+}
+div.sys_class:nth-child(7n){
+	margin-right: 0;
+}
+div.sys_class img{
+	display:inline-block;
+	clear:both;
+	width:60%;
+	margin:0 20%;
+	height:5rem;
+}
+div.sys_class p{
+	text-align: center;
+	font-size: .9rem;
+}
+div.sys_class p:last-child{
+	color:rgba(0,255,0,.8);
+}
+div.sys_class p:last-child:hover{
+	color:red;
+}
+
+/*鑱屼笟鏂瑰悜妯″潡*/
+div.career_path{
+	clear:both;
+	width:100%;
+	height:24rem;
+}
+div.path_div{
+	width:19%;
+	height:11rem;
+	background-color:#FFFFFF;
+	margin-top:.6rem;
+	margin-right: 1.2%;
+	float:left;
+}
+div.path_div:nth-child(5n){
+	float:right;
+}
+div.path_div:nth-child(5n){
+	margin-right: 0;
+}
+div.path_div img{
+	width:100%;
+	height:9rem;
+}
+div.path_div p{
+	text-align: center;
+	font-size: .9rem;
+}
+
+/*story_div瀛﹀憳鏁呬簨妯″潡*/
+div#story_div{
+	clear:both;
+	width:100%;
+	height:16rem;
+	margin-top:1rem;
+}
+div.stu_story{
+	width:30%;
+	height:inherit;
+	float: left;
+	margin-right:5%;
+	background-color: #FFFFFF;
+}
+div.stu_story:nth-child(3){
+	float:right;
+}
+div.stu_story:nth-child(3){
+	margin-right: 0;
+}
+div.stu_story i{
+	display:inline-block;
+	width:100%;
+	height:1rem;
+	color:red;
+	text-align: center;
+	margin-top:1rem;
+}
+div.stu_story p{
+	display: inline-block;
+	width:75%;
+	height:70%;
+	margin:0 12.5%;
+	margin-top:1rem;
+	text-align: justify;
+}
+div.stu_story>p::before{
+	content:'';
+	display: inline-block;
+	width:14px;
+	height:10px;
+	background: url(../img/storyicon_4a5e270.png) no-repeat center;
+	background-size: 14px 10px;
+	position:relative;
+	left:-10px;
+	top:-20px;
+}
+div.brief_intro{
+	width:100%;
+	height:30%;
+	margin:0 auto;
+	background-color: #E9E9E9;
+}
+div.brief_intro img{
+	width:4rem;
+	height:4rem;
+	border-radius: 50px;
+	margin-top:.5rem;
+	margin-left:5%;
+	float: left;
+}
+div.brief_intro span{
+	float:left;
+	width:50%;
+	height:inherit;
+}
+div.brief_intro span i{
+	width:75%;
+}
+div.brief_intro span p{
+	width:auto;
+	height:1.5rem;
+}
+/*article涓棿涓讳綋鏍峰紡*/
+
+/*濯掍綋鏌ヨ*/
+@media only screen and (min-width: 250px) and (max-width: 500px) {
+	aside.classes,div#nav_introduction{
+		width:100%;
+	}
+	nav#article_nav{
+		display:none;
+	}
+	article.main_article{
+		height:140rem;
+	}
+	aside.classes{
+		height:115rem;
+	}
+	#story_div{
+		height:35rem;
+	}
+	div.stu_story p{
+		overflow: scroll;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 860px) {
+	aside.classes,div#nav_introduction{
+		width:100%;
+	}
+	nav#article_nav{
+		width:30%;
+	}
+	article.main_article{
+		height:120rem;
+	}
+	aside.classes{
+		height:105rem;
+	}
+	div.introduction_div{
+		width:69%;
+	}
+	#story_div{
+		height:20rem;
+	}
+}
+@media only screen and (min-width: 860px) and (max-width: 1300px) {
+	aside.classes,div#nav_introduction{
+		width:100%;
+	}
+}

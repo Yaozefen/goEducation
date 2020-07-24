@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>项目实战详情页面</title>
+		<link rel="stylesheet" href="css/main_head.css"/>
+		<link rel="stylesheet" href="css/main_foot.css" />
+		<link rel="stylesheet" href="css/project.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/main_head.js" ></script>
+		<script type="text/javascript" src="js/project.js" ></script>
+	</head>
+	<body>
+		<header class = "main_head">
+			<img src = "img/littleLogo.jpg" alt = "小logo图片" id = "littleLogo">
+			<nav id = "head_nav">
+				<ul id = "head_ul">
+					<li>首页<a href = "main.html"></a>
+					</li>
+					<li>职业<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">Web前端工程师</a></li>
+							<li><a href="">微信小程序</a></li>
+							<li><a href="">Android工程师</a></li>
+							<li><a href="">ios工程师</a></li>
+							<li><a href="">php开发工程师</a></li>
+							<li><a href="">jsp开发工程师</a></li>
+							<li><a href="">框架架构师</a></li>
+							<li><a href="">数据库开发</a></li>
+							<li><a href="">大数据挖掘</a></li>
+							<li><a href="">区块链工程师</a></li>
+						</ul>
+					</li>
+					<li>课程<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">HTML5与CSS3</a></li>
+							<li><a href="">JavaScript</a></li>
+							<li><a href="">Andriod</a></li>
+							<li><a href="">IOS</a></li>
+							<li><a href="">Python</a></li>
+							<li><a href="">Cocos2D</a></li>
+						</ul>
+					</li>
+					<li>企业<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">微软人工智能</a></li>
+							<li><a href="">百度AI智能</a></li>
+							<li><a href="">腾讯云计算</a></li>
+							<li><a href="">阿里云计算</a></li>
+						</ul>
+					</li>
+					<li>社区<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">Git社区</a></li>
+							<li><a href="">jquery社区</a></li>
+							<li><a href="">java社区</a></li>
+							<li><a href="">python社区</a></li>
+							<li><a href="">web社区</a></li>
+							<li><a href="">struts2社区</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div id = "search">
+				<div id = "searchInput"><input type = "text" id = "search_focus" autocomplete="on" spellcheck="true" placeholder="搜索课程"></div>
+				<div id = "searchBtn"><input type = "button"></div>
+			</div>
+			<div id = "sign_regis">
+				<span>
+					<a href = "index.html"><img src = "img/userImg.jpg" alt = "登录"></a>
+				</span>
+			</div>
+		</header>
+		<!-- header模块 -->
+		<article id = "project_article"><!--article中间模块-->
+			<aside id = "project_aside">
+				<p>首页  > java工程师  > 项目实战</p>
+				<div id = "pay_div">
+					<img src = "img/current-class-img/project.png" alt = "项目实战">
+					<div id = "pay">
+						<h1>项目实战</h1>
+						<small>主讲：李力</small><br/>
+						<small>本课程介绍一些项目检测前面所学的知识，掌握在企业中完成一套设计对应的产品流程</small>
+						<div>
+							<big>￥ 90.00</big>
+							<del>￥ 129.00</del>
+							<ul>
+								<li>VIP价</li>
+								<li>￥ 79.00</li>
+							</ul>
+						</div>
+						<p>
+							<input type = "button" value = "立即购买">
+							<input type = "button" value = "购买会员">
+						</p>
+					</div>
+				</div><!--pay_div结束-->
+				<div id = "detail">
+					<div class = "word">课程详情</div>
+					<div id = "introduction">
+						<h2>课程概述</h2>
+						<p>本课程介绍一些项目检测前面所学的知识。</p>
+						<h2>适用人群</h2>
+						<p>1.java设计从业者</p>
+						<p>2.有志成为java设计师的人</p>
+						<h2>学习收获</h2>
+						<p>掌握在企业中完成一套设计对应的产品流程。</p>
+						<h2>常见问题</h2>
+						<p>Q：如果有问题，我去哪里咨询？</p>
+						<p>A：关于在学习过程中遇到问题，可以点击页面右下方的“提问题”按钮，会有专人为你解答</p><br/>
+						<p>Q: 有的章节的知识我已经会了，可以跳过吗？</p>
+						<p>A: 可以，整个课程采用自由学习方式，不设置每个课时的前后限制要求。</p><br/>
+						<p>Q: 课程的视频提供下载么？</p>
+						<p>A: 我们的课程视频进行加密处理，暂时不支持下载。</p><br/>
+					</div>
+				</div>
+				<div id = "teacher">
+					<div class = "word">主讲老师</div>
+						<div id = "tea">
+							<img src = "img/current-class-img/default_tea.gif" alt = "默认老师图片">
+							<span>
+								<i>李力</i>
+								<br/>
+								<p>讲师</p>
+							</span>
+							<p>从业十余年，专注企业产品、移动产品及智能交互终端的java设计；熟悉项目开发交互流程，有着丰富的java设计和培训经验。</p>
+						</div>
+				</div>
+				<div id = "evaluate">
+					<div class = "word">学员评价</div>
+					<div class = "scroll">
+						<ul class = "list">
+							<li><b>一只兔子</b>：讲的很详细，通俗易懂。</li>
+							<li><b>宇宙最强</b>：我基础本来就不好，李力老师非常有耐心。</li>
+							<li><b>哈哈哈哈</b>：不愧是老师，头头是道的，有条理。</li>
+							<li><b>syydhdsdsadd</b>：第一次上李力老师的课，感触特别深。</li>
+							<li><b>13249575040</b>：厉害厉害，赞一个。</li>
+							<li><b>bong啥卡拉卡</b>：感觉以前学的很多都落后了，没接触到最新知识。</li>
+							<li><b>low</b>：挺好的。</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+		</article>
+		<!--footer模块-->
+		<footer class = "main_foot">
+			<ul class = "footer_ul">
+				<li><a href="#">关于我们</a></li><li>|</li>
+				<li><a href="#">加入我们</a></li><li>|</li>
+				<li><a href="#">联系我们</a></li><li>|</li>
+				<li><a href="#">企业合作</a></li><li>|</li>
+				<li><a href="#">帮助中心</a></li><li>|</li>
+				<li><a href="#">讲师合作</a></li><li>|</li>
+				<li><a href="#">参与调研</a></li><li>|</li>
+				<li><a href="#">友情链接</a></li>
+			</ul>
+			<hr />
+			<p>Copyright © 2013-2018 xiangqian.edu All Rights Reserved. 广ICP备110120119号 广公网安备1101201589</p>
+		</footer>
+		<!--footer模块-->
+	</body>
+</html>

@@ -1,0 +1,31 @@
+/*footer样式*/
+footer.main_foot{
+	width:100%;
+	height:5rem;
+	text-align: center;
+}
+.footer_ul{
+	margin:0 auto;
+	width:50%;
+	height:2rem;
+}
+.footer_ul>li{
+	float: left;
+	margin-right:1.3rem;
+}
+.footer_ul>li:nth-child(even){
+	color:rgba(0,0,0,.1);
+}
+.footer_ul li a{
+	font-size:.8rem;
+	color: rgba(0,0,0,.5);
+}
+.main_foot>hr{
+	color:hsla(0,100%,100%,.3);
+}
+footer.main_foot>p{
+	display: inline-block;
+	margin-top:1rem;
+	font-size:.7rem;
+}
+/*footer样式*/

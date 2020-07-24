@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/main_head.css" />
+		<link rel="stylesheet" href="css/main_foot.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/main_head.js" ></script>
+		<script type="text/javascript" src="js/main.js" ></script>
+	</head>
+	<body>
+		<!-- header模块 -->
+		<header class = "main_head">
+			<img src = "img/littleLogo.jpg" width = "130" height = "74" alt = "小logo图片" id = "littleLogo">
+			<nav id = "head_nav">
+				<ul id = "head_ul">
+					<li>首页<a href = "main.html"></a>
+					</li>
+					<li>职业<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">Web前端工程师</a></li>
+							<li><a href="">微信小程序</a></li>
+							<li><a href="">Android工程师</a></li>
+							<li><a href="">ios工程师</a></li>
+							<li><a href="">php开发工程师</a></li>
+							<li><a href="">jsp开发工程师</a></li>
+							<li><a href="">框架架构师</a></li>
+							<li><a href="">数据库开发</a></li>
+							<li><a href="">大数据挖掘</a></li>
+							<li><a href="">区块链工程师</a></li>
+						</ul>
+					</li>
+					<li>课程<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">HTML5与CSS3</a></li>
+							<li><a href="">JavaScript</a></li>
+							<li><a href="">Andriod</a></li>
+							<li><a href="">IOS</a></li>
+							<li><a href="">Python</a></li>
+							<li><a href="">Cocos2D</a></li>
+						</ul>
+					</li>
+					<li>企业<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">微软人工智能</a></li>
+							<li><a href="">百度AI智能</a></li>
+							<li><a href="">腾讯云计算</a></li>
+							<li><a href="">阿里云计算</a></li>
+						</ul>
+					</li>
+					<li>社区<a href = "main.html"></a>
+						<ul class="childMenu">
+							<li><a href="">Git社区</a></li>
+							<li><a href="">jquery社区</a></li>
+							<li><a href="">java社区</a></li>
+							<li><a href="">python社区</a></li>
+							<li><a href="">web社区</a></li>
+							<li><a href="">struts2社区</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div id = "search">
+				<div id = "searchInput"><input type = "text" id = "search_focus" autocomplete="on" spellcheck="true" placeholder="搜索课程"></div>
+				<div id = "searchBtn"><input type = "button"></div>
+			</div>
+			<div id = "sign_regis">
+				<span>
+					<a href = "index.html"><img src = "img/userImg.jpg" alt = "登录"></a>
+				</span>
+			</div>
+		</header>
+		<!-- header模块 -->
+		
+		<!-- article模块 -->
+		<article class = "main_article">	<!-- 这是轮播模块-->			
+			<div class = "banner_pic" id = "banner_pic">
+				<div id = "nav_introduction">
+					<ul class = "ul">
+						<li><a href = "#"></a></li>
+						<li><a href = "#"></a></li>
+						<li><a href = "#"></a></li>
+					</ul>
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>基础知识</dt>
+							<dd>
+								<a>HTMl</a><a>|</a>
+								<a>CSS</a><a>|</a>
+								<a>HTML5</a><a>|</a>
+								<a>CSS3</a><a>|</a>
+								<a>JavaScript6</a><a>|</a>
+								<a>技术前瞻</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>前端进阶</dt>
+							<dd>
+								<a>Typescript</a><a>|</a>
+								<a>前端安全</a><a>|</a>
+								<a>项目实战</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl style = "height:6rem;">
+							<dt>前端框架</dt>
+							<dd>
+								<a>jQuery</a><a>|</a>
+								<a>jQuery UI</a><a>|</a>
+								<a>jQuery Moblie</a><a>|</a>
+								<a>Angular JS</a><a>|</a>
+								<a>ReactJS</a><a>|</a>
+								<a>Three.js</a><a>|</a>
+								<a>Compass</a><a>|</a>
+								<a>Bookstrap</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>HTML5游戏</dt>
+							<dd>
+								<a>Canvas</a><a>|</a>
+								<a>SVG</a><a>|</a>
+								<a>WebGL</a><a>|</a>
+								<a>Cocos2D</a><a>|</a>
+								<a>Flash</a><a>|</a>
+								<a>Egret</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>Python</dt>
+							<dd>
+								<a>Python基础</a><a>|</a>
+								<a>Web2py</a><a>|</a>
+								<a>GUI</a><a>|</a>
+								<a>Flash</a><a>|</a>
+								<a>Diango</a><a>|</a>
+								<a>数据挖掘</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>PHP</dt>
+							<dd>
+								<a>PHP基础</a><a>|</a>
+								<a>WordPress</a><a>|</a>
+								<a>Apache</a><a>|</a>
+								<a>Facebook Hack</a><a>|</a>
+								<a>ThinkPHP</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl style = "height:6rem;">
+							<dt>J2EE</dt>
+							<dd>
+								<a>JSP</a><a>|</a>
+								<a>Maven</a><a>|</a>
+								<a>SpringMVC</a><a>|</a>
+								<a>Struts2</a><a>|</a>
+								<a>Spring</a><a>|</a>
+								<a>MyBatis</a><a>|</a>
+								<a>Hibernate</a><a>|</a>
+								<a>Lucene</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>Ruby</dt>
+							<dd>
+								<a>Ruby基础</a><a>|</a>
+								<a>Ruby on Rails</a><a>|</a>
+								<a>Grape</a><a>|</a>
+								<a>Ruby进阶</a><a>|</a>
+								<a>RubyMine</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>Go</dt>
+							<dd>
+								<a>Go基础</a><a>|</a>
+								<a>Revel</a><a>|</a>
+								<a>beego</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>应用开发</dt>
+							<dd>
+								<a>Android</a><a>|</a>
+								<a>IOS</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>游戏开发</dt>
+							<dd>
+								<a>Cocos</a><a>|</a>
+								<a>Unity3D</a><a>|</a>
+								<a>Unreal</a><a>|</a>
+								<a>SpriteKit</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl style = "height:6rem;">
+							<dt>常用框架</dt>
+							<dd>
+								<a>Cordova</a><a>|</a>
+								<a>React Native</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>人工智能基础</dt>
+							<dd>
+								<a>行业解读</a><a>|</a>
+								<a>AWS任工智能简介</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>微软AI</dt>
+							<dd>
+								<a>人工智能概览</a><a>|</a>
+								<a>服务与API</a><a>|</a>
+								<a>机器学习</a><a>|</a>
+								<a>数据分析</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl style = "height:6rem;">
+							<dt>百度AI</dt>
+							<dd>
+								<a>文字识别</a><a>|</a>
+								<a>人脸识别</a><a>|</a>
+								<a>图像审核</a>
+							</dd>
+						</dl>
+						
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>硬件架构</dt>
+							<dd>
+								<a>C51</a><a>|</a>
+								<a>ARM</a><a>|</a>
+								<a>Keil</a><a>|</a>
+								<a>Cortex-M</a><a>|</a>
+								<a>Cortex-A</a><a>|</a>
+								<a>AVR</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>物联网操作系统</dt>
+							<dd>
+								<a>RTOS</a><a>|</a>
+								<a>Android Wear</a><a>|</a>
+								<a>Apple Watchkit</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>信息链接技术</dt>
+							<dd>
+								<a>无线WiFi</a><a>|</a>
+								<a>移动通信</a><a>|</a>
+								<a>蓝牙</a><a>|</a>
+								<a>NFC</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>人机交互技术</dt>
+							<dd>
+								<a>语音识别</a><a>|</a>
+								<a>人脸识别</a><a>|</a>
+								<a>手势识别</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>云计算</dt>
+							<dd>
+								<a>OpenStack</a><a>|</a>
+								<a>Docker</a><a>|</a>
+								<a>CloudStack</a><a>|</a>
+								<a>Windows Azure</a><a>|</a>
+								<a>laaS</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>大数据</dt>
+							<dd>
+								<a>Hadoop</a><a>|</a>
+								<a>Storm</a><a>|</a>
+								<a>Zookeeper</a><a>|</a>
+								<a>Hbase</a><a>|</a>
+								<a>Hive</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>虚拟化</dt>
+							<dd>
+								<a>VMware</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>SQL</dt>
+							<dd>
+								<a>MySQL</a><a>|</a>
+								<a>SQL Server</a><a>|</a>
+								<a>Oracle</a><a>|</a>
+								<a>SQLite</a><a>|</a>
+								<a>PostgreSQL</a><a>|</a>
+								<a>DB2</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>设计基础</dt>
+							<dd>
+								<a>Photoshop</a><a>|</a>
+								<a>Flash</a><a>|</a>
+								<a>Sketch</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>游戏设计</dt>
+							<dd>
+								<a>界面设计</a><a>|</a>
+								<a>角色设计</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>产品经理</dt>
+							<dd>
+								<a>需求分析</a><a>|</a>
+								<a>Axure</a><a>|</a>
+								<a>项目实战</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>视觉设计</dt>
+							<dd>
+								<a>应用UI设计</a><a>|</a>
+								<a>网页UI设计</a><a>|</a>
+								<a>设计理论</a><a>|</a>
+								<a>图形设计</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>测试工具</dt>
+							<dd>
+								<a>自动化设计</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<div class="introduction_div"><!--introdeution_div导航栏详细介绍容器-->
+						<p>知识体系</p>
+						<hr/>
+						<dl>
+							<dt>基础语言</dt>
+							<dd>
+								<a>C</a><a>|</a>
+								<a>C++</a><a>|</a>
+								<a>C#</a><a>|</a>
+								<a>Java</a><a>|</a>
+								<a>Shell</a><a>|</a>
+								<a>Qt</a><a>|</a>
+								<a>Perl</a><a>|</a>
+								<a>Swift</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>开发工具</dt>
+							<dd>
+								<a>Git</a><a>|</a>
+								<a>SVN</a><a>|</a>
+								<a>VI</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>计算机基础</dt>
+							<dd>
+								<a>Word</a><a>|</a>
+								<a>Excel</a><a>|</a>
+								<a>PowerPoint</a>
+							</dd>
+						</dl>
+						<hr/>
+						<dl>
+							<dt>开发基础</dt>
+							<dd>
+								<a>算法基础</a><a>|</a>
+								<a>数据结构</a><a>|</a>
+								<a>设计模式</a><a>|</a>
+								<a>软件工程</a>
+							</dd>
+						</dl>
+					</div><!--introdeution_div导航栏详细介绍容器-->
+					<nav id = "article_nav">
+						<ul id = "article_ul">
+							<li>
+								<div><a href="#">前端开发</a></div>
+							</li>
+							<li>
+								<div><a href="#">后端开发</a></div>
+							</li>
+							<li>
+								<div><a href="#">移动开发</a></div>
+							</li>
+							<li>
+								<div><a href="#">人工智能</a></div>
+							</li>
+							<li>
+								<div><a href="#">智能硬件/互联网</a></div>
+							</li>
+							<li>
+								<div><a href="#">云计算/大数据</a></div>
+							</li>
+							<li>
+								<div><a href="#">设计/产品/测试</a></div>
+							</li>
+							<li>
+								<div><a href="#">技术支撑</a></div>
+							</li>
+						</ul>
+					</nav><!--主体内容nav结束 -->
+				</div><!---->
+			</div>
+			<aside class = "classes">
+				<div class = "word">
+					<h1>最新课程</h1>
+					<a>更多最新课程&lt;&lt;</a>
+				</div>
+				<div class = "current_class"><!--current_class最新课程模块-->
+					<div class = "current">
+						<a href = "project.html">
+							<img src = "img/current-class-img/project.png" alt = "项目实战">
+							<p>项目实践</p>
+							<p>中级  | 1门课</p>
+						</a>
+					</div>
+					<div class = "current">
+						<a href = "project.html">
+							<img src = "img/current-class-img/zero_framework.jpeg" alt = "从零开始学架构">
+							<p>从零开始学架构</p>
+							<p>中级  | 4门课</p>
+						</a>
+					</div>
+					<div class = "current">
+						<a href = "project.html">
+							<img src = "img/current-class-img/framework_design.png" alt = "架构设计">
+							<p>架构设计</p>
+							<p>高级  | 10门课</p>
+						</a>
+					</div>
+					<div class = "current">
+						<a href = "project.html">
+							<img src = "img/current-class-img/page_static.jpeg" alt = "页面静态化技术">
+							<p>页面静态化技术</p>
+							<p>高级  | 8门课</p>
+						</a>
+					</div>
+				</div><!--current_class最新课程模块结束-->
+				<div class = "word">
+					<h1>知识体系</h1>
+					<a>更多知识体系&lt;&lt;</a>
+				</div>
+				<div class = "knowledge_sys"><!--knowledge_sys知识体系模块-->
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/java.png" alt="java_web">
+							<p>java Web</p>
+							<p>120节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/ecmaScript.png" alt="原生js">
+							<p>原生js</p>
+							<p>54节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/Nodejs.png" alt="Nodejs">
+							<p>Node.js</p>
+							<p>35节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/php.png" alt="php开发">
+							<p>php开发</p>
+							<p>64节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/bookstrap.png" alt="bookstrap">
+							<p>bookstrap</p>
+							<p>38节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/cocos2d.png" alt="cocos2D游戏开发">
+							<p>cocos2D游戏开发</p>
+							<p>50节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/h5.png" alt="HTML5开发">
+							<p>HTML5开发</p>
+							<p>68节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/c.png" alt="C语言">
+							<p>C语言</p>
+							<p>72节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src = "img/knowledge_sys_img/c_sharp.png" alt="C#语言">
+							<p>C#语言</p>
+							<p>54节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/docker.png" alt="Docker">
+							<p>Docker</p>
+							<p>15节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/python.png" alt="python">
+							<p>python</p>
+							<p>80节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/gui.png" alt="Gui版本控制">
+							<p>Gui版本控制</p>
+							<p>20节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/android.png" alt="Android">
+							<p>Android</p>
+							<p>98节课时</p>
+						</a>
+					</div>
+					<div class = "sys_class">
+						<a href = "front_enginer.html">
+							<img src="img/knowledge_sys_img/ios.png" alt="IOS">
+							<p>IOS</p>
+							<p>88节课时</p>
+						</a>
+					</div>
+				</div><!--knowledge_sys知识体系模块结束-->
+				<div class = "word">
+					<h1>职业方向</h1>
+					<a>更多职业方向&lt;&lt;</a>
+				</div>
+				<div class = "career_path"><!--career_path职业方向模块-->
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/python.jpeg" alt="python工程师">
+							<p>python工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/back_end.jpeg" alt="后端工程师">
+							<p>后端工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/wechat.jpeg" alt="小程序工程师">
+							<p>小程序工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/ui.png" alt="UI设计师">
+							<p>UI设计师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/android.jpeg" alt="Android工程师">
+							<p>Android工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/ios.jpeg" alt="ios工程师">
+							<p>ios工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/front_end.jpeg" alt="前端工程师">
+							<p>前端工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/machine.png" alt="机器学习工程师">
+							<p>机器学习工程师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/big_data.png" alt="大数据挖掘师">
+							<p>大数据挖掘师</p>
+						</a>
+					</div>
+					<div class="path_div">
+						<a href = "python.html">
+							<img src="img/career-path-img/go.jpeg" alt="Go工程师">
+							<p>Go工程师</p>
+						</a>
+					</div>
+				</div><!--career_path职业方向模块-->
+				<div id = "story_div"><!--story_div学员故事模块 -->
+					<div class = "stu_story">
+						<i>学员故事</i>
+						<p>Web前端工程师就业办五期03班学员，某985大学信息与计算机科学2016届毕业</p>
+						<div class = "brief_intro">
+							<img src = "img/coorpretaSignIn/qq.jpg" alt = "头像">
+							<span>
+								<i>郑绍青</i><br/>
+								<p>阿里巴巴杭州</p>
+							</span>
+						</div>
+					</div>
+					<div class = "stu_story">
+						<i>学员故事</i>
+						<p>力学博士转安卓开发，回顾自己从力学走向代码世界的历程，感触良多。庆幸自己没有留在研究所，不断学习不断进步的感觉更有意义。</p>
+						<div class = "brief_intro">
+							<img src = "img/coorpretaSignIn/wechat.jpg" alt = "头像">
+							<span>
+								<i>李振东</i><br/>
+								<p>深圳信息科技</p>
+							</span>
+						</div>
+					</div>
+					<div class = "stu_story">
+						<i>学员故事</i>
+						<p>从房地产营销策划转行python工程师，努力并不是为了证明自己有多厉害，只是对自己生活方式的一种选择，每个人都可以决定自己生活的样子。</p>
+						<div class = "brief_intro">
+							<img src = "img/coorpretaSignIn/weibo.jpg" alt = "头像">
+							<span>
+								<i>柯凡星</i><br/>
+								<p>百度AI智能</p>
+							</span>
+						</div>
+					</div>
+				</div><!--story_div学员故事模块 结束-->
+			</aside>
+		</article>
+		<!-- article模块 -->
+		
+		<!--footer模块-->
+		<footer class = "main_foot">
+			<ul class = "footer_ul">
+				<li><a href="#">关于我们</a></li><li>|</li>
+				<li><a href="#">加入我们</a></li><li>|</li>
+				<li><a href="#">联系我们</a></li><li>|</li>
+				<li><a href="#">企业合作</a></li><li>|</li>
+				<li><a href="#">帮助中心</a></li><li>|</li>
+				<li><a href="#">讲师合作</a></li><li>|</li>
+				<li><a href="#">参与调研</a></li><li>|</li>
+				<li><a href="#">友情链接</a></li>
+			</ul>
+			<hr />
+			<p>Copyright © 2013-2018 xiangqian.edu All Rights Reserved. 广ICP备110120119号 广公网安备1101201589</p>
+		</footer>
+		<!--footer模块-->
+	</body>
+</html>

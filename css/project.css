@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+	font-weight: normal;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#111111;
+}
+a:hover{
+	color:red;
+}
+h1{
+	font-size:20px;
+}					
+/*这是通配样式*/
+body{
+	width:100%;
+	height:1000px;
+}
+article#project_article{
+	width:100%;
+	height:56rem;
+	background-color: #E6E6E6;
+}
+aside#project_aside{
+	width:65%;
+	height:inherit;
+	margin:0 auto;
+}
+aside#project_aside>p{
+	width:100%;
+	height:3rem;
+	line-height: 3rem;
+	text-align: left;
+}
+/*pay_div课程信息模块*/
+div#pay_div{
+	width:100%;
+	height:15rem;
+	background-color: #FFFFFF;
+	z-index:-1;
+}
+div#pay_div img{
+	width:30%;
+	height:13rem;
+	margin:1rem 2%;
+	float: left;
+}
+div#pay{
+	float:left;
+	width:63%;
+	height:13rem;
+	margin:1rem 0;
+	margin-right:2%;
+	line-height: 2rem;
+}
+div#pay big{
+	color:orange;
+}
+div#pay div{
+	width:100%;
+	height:2rem;
+	margin-top:.5rem;
+}
+div#pay div big,div#pay div del,div#pay div ul{
+	float:left;
+	font-size: 1.3rem;
+	margin-left:2%;
+}
+div#pay div ul li{
+	float:left;
+	width:4rem;
+	height:1.8rem;
+	text-align: center;
+	line-height: 1.8rem;
+	border:1px solid orange;
+}
+div#pay div ul li:first-child{
+	color:#FFFFFF;
+	background-color: orange;
+}
+div#pay div ul li:last-child{
+	color:orange;
+	background-color: #FFFFFF;
+}
+div#pay p{
+	clear:both;
+	margin-top:.5rem;
+}
+div#pay>p>input{
+	width:8rem;
+	height:3rem;
+	line-height: 2rem;
+	border-radius: .2rem;
+	border:1px solid rgba(255,0,0,.5);
+}
+div#pay>p>input:first-child{
+	background-color: #fff;
+	color:red;
+}
+div#pay>p>input:last-child{
+	background-color: rgb(255,0,0,.7);
+}
+div#pay>p>input:first-child:hover{
+	background-color: rgb(255,0,0,.7);
+	color:black;
+}
+div#pay>p>input:last-child:hover{
+	background-color: #fff;
+}
+/*pay_div课程信息模块*/
+
+/*detail课程详情页面*/
+div#detail{
+	width:70%;
+	height:35rem;
+	float:left;
+	background-color: #FFFFFF;
+	margin-top:1rem;
+}
+div#introduction{
+	width:80%;
+	height:inherit;
+	margin:0 auto;
+}
+div#introduction h2{
+	font-size:1.1rem;
+	width:100%;
+	height:1.5rem;
+	margin:1rem 0;
+}
+div#introduction p{
+	font-size: .8rem;
+	color:rgba(0,0,0,.6);
+}
+/*detail课程详情页面*/
+
+/*teacher主讲老师模块*/
+div#teacher,div#evaluate{
+	width:28%;
+	float:right;
+	margin-left:2%;
+	background-color: #FFFFFF;
+}
+div#teacher{
+	height:15rem;
+	margin-top:1rem;
+}
+div.word{
+	width:100%;
+	height:3rem;
+	line-height: 3rem;
+	text-align: center;
+	color:firebrick;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	overflow: hidden;
+}
+div#tea{
+	width:100%;
+	height:12rem;
+}
+div#tea img{
+	width:3rem;
+	height:3rem;
+	float:left;
+	margin-left:10%;
+	border-radius: 50px;
+}
+div#tea span{
+	float:left;
+	width:50%;
+	margin-left:5%;
+	line-height: 1.5rem;
+}
+div#tea span>i{
+	width:75%;
+}
+div#tea span>p{
+	width:auto;
+	height:1.5rem;
+	font-size: .8rem;
+	color:rgba(0,0,0,.5);
+}
+div#tea>p{
+	margin:0 5%;
+	clear:both;
+	text-align: justify;
+	color:rgba(0,0,0,.5);
+}
+/*teacher主讲老师模块*/
+
+/*evaluate学员评价模块*/
+div#evaluate{
+	height:19rem;
+	margin-top:1rem;
+	overflow: hidden;
+}
+div.scroll{
+	width:100%;
+	height:13rem;
+	margin:1.5rem auto;
+}
+div.scroll ul{
+	width:90%;
+	height:inherit;
+	margin:0 auto;
+}
+div.scroll ul li{
+	width:100%;
+	height:3rem;
+	text-align: justify;
+	color:rgba(0,0,0,.5);
+}
+div.scroll ul li b{
+	color:red;
+}
+div.scroll ul li b:hover{
+	color:#228B22;
+}
+/*evaluate学员评价模块*/
+
+/*媒体查询*/
+@media only screen and (min-width: 250px) and (max-width: 500px) {
+	aside#project_aside,div#detail,div#teacher,div#evaluate,div#pay_div>img,div#pay{
+		width:100%;
+	}
+	aside#project_aside>p{
+		clear:both;
+	}
+	div#pay{
+		height:17rem;
+	}
+	div#detail{
+		height:38rem;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 860px) {
+	div#pay_div{
+		height:17rem;
+	}
+	aside#project_aside,div#detail,div#teacher,div#evaluate{
+		width:100%;
+	}
+}

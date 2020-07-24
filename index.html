@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>一流教育平台-向前教育</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+		<img src = "img/logo.jpg" alt = "logo图片" id = "logoImg">
+		<div class = "signIn_div">
+			<section class = "signIn_section">
+				<div id = "contain">
+					<div id = "choose_div">
+						<ul class = "signIn_ul">
+							<li class = "li" id = "li_user"><a>登录</a></li>
+							<li class = "li" id = "li_phone"><a>手机动态码登录</a></li>
+						</ul>
+					</div>
+					<form action = "main.html" method = "post" id = "uform" name = "uform">
+						<div class = "input_div">
+							<input type = "text" id = "username" name = "user.username" autocomplete="on" placeholder="手机 / 用户名 / 邮箱" onblur = "validate()">
+							<span id = "user_span"></span>
+						</div>
+						<div class = "input_div">
+							<input type = "password" id = "passname" name = "user.password" placeholder="输入6~16位密码">
+							<span id = "pass_span"></span>
+						</div>
+						<p class = "sign_p">
+							<input type = "checkbox">7日内免登录
+							<a href = "changePw.jsp">忘记密码</a>
+						</p>
+						<input type = "submit" value = "登录">
+					</form>
+					<form action = "main.jsp" method = "post" id = "signIn_form_second">
+						<div class = "input_div">
+							<input type = "text" id = "phone" placeholder="请输入手机号">
+							<span id = "phone_span"></span>
+						</div>
+						<div class = "input_div">
+							<input type = "text" id = "code" placeholder="动态码">
+							<button id ="get_code">获取验证码</button>
+						</div>
+						
+						<input type = "submit" value = "登录">
+					</form>
+				</div>
+			</section>
+                      <!--
+                      	作者：offline
+                      	时间：2019-05-03
+                      	描述：section结束，及左边登录框制作完成
+                      -->
+            <aside class = "coop_aside">
+            	<div id = "coop_div">
+            		<p>没有账号?<a href = "register.html">免费注册</a></p>
+            		<p>——————  合作登录    —————</p>
+            
+            		<img src = "img/coorpretaSignIn/qq.jpg" alt = "qq.jpg">
+            		<img src = "img/coorpretaSignIn/weibo.jpg" alt = "weoboi.jpg">
+            		<img src = "img/coorpretaSignIn/wechat.jpg" alt = "wechat.jpg">
+            		<img src = "img/coorpretaSignIn/e.jpg" alt = "e.jpg">
+            	</div>
+            </aside>
+                    <!--
+                    	作者：offline
+                    	时间：2019-05-03
+                    	描述：合作单位登录模块
+                    -->
+		</div>
+	</body>
+</html>
